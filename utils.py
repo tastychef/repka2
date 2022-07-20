@@ -3,10 +3,10 @@ arr_2d = [[1, 2, 3],
           [7, 8, 9]]
 
 
-def print_matrix(arr_2d):
+def print_matrix(x):
     for arr in arr_2d:
         for el in arr:
             print(el, end=' ')
         print()
-    return(arr_2d)
+    return()
 print_matrix(arr_2d)
