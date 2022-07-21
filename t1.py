@@ -1,3 +1,10 @@
+# from utils import print_matrix
+# arr_2d = [[1, 2, 3],
+#           [4, 5, 6],
+#           [7, 8, 9]]
+#
+# print_matrix(arr_2d)
+
 # def print_matrix(arr_2d):
 #     for arr in arr_2d:
 #         for el in arr:
@@ -16,17 +23,9 @@
 #             j = j + 1
 #         i = i + 1
 #     return arr_2d_rez
-arr_2d = [[1, 2, 3],
-          [4, 5, 6],
-          [7, 8, 9]]
+a = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
 
-
-def print_matrix(arr_2d):
-    for j in range(3):
-        for i in range(3):
-            print(arr_2d[i][j], end=" ")
-        print()
-    return arr_2d
-
-
-print_matrix(arr_2d)
+for j in range(3):
+    for i in range(3):
+        print(a[i][j], end=" ")
+    print()

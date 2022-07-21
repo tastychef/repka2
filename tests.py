@@ -1,6 +1,6 @@
 import unittest
 from utils import print_matrix
-from utils2 import division
+from old_utils2 import division
 
 
 class Test1(unittest.TestCase):
