@@ -1,4 +1,4 @@
-from data2 import arr_2d2
+from M108.data2 import arr_2d2
 
 
 def print_matrix(s):
