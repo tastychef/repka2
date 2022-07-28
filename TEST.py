@@ -1,2 +1,8 @@
-def multiply(a, b):
-    return a * b
+def rec(x):
+    if x < 4:
+        print(x)
+        rec(x + 1)
+        print(x)
+
+
+rec(1)
